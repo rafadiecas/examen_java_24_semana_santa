@@ -17,13 +17,16 @@ import java.util.List;
 public class Hermandad {
     private String nombreCompleto;
     private String nombreCorto;
-    private List<Hermano> hermanos;
     private Double cuotaHermano;
     private TipoCuota tipoCuota;
+    private Double importeCuota;
     private JuntaGobierno juntaGobierno;
     private String sedeCanonica;
     private DiaSalida diaSalida;
     private LocalTime horaSalida;
     private LocalTime horaLlegada;
+    private List<Titular> titulares;
+    private List<Hermano> hermanos;
+    private List<Paso> pasos;
 
 }
