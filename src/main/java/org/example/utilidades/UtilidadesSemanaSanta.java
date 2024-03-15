@@ -16,8 +16,6 @@ public class UtilidadesSemanaSanta {
 
     /**
      * Ejercicio 1 (1 pt)
-     * El método devuelve las hermandades cuya cuota no supere la cuota máxima que se pasa como parámetro
-     * y cuyo tipo Cuota sea la que se pasa como parámetro.
      *
      * @param hermandades
      * @param cuotaMaxima
@@ -31,8 +29,6 @@ public class UtilidadesSemanaSanta {
 
     /**
      * Ejercicio 2 (1 pt)
-     * El método devuelve un Mapa con el número de hermandades que sale cada día.
-     * Cabe destacar que los días que no salen hermandades no es necesario que aparezcan como claves del mapa.
      *
      * @param hermandades
      * @return
@@ -44,9 +40,6 @@ public class UtilidadesSemanaSanta {
 
     /**
      * Ejercico 3 (2 pts)
-     * A partir de una hermandad el método devuelve los 5 hermanos que lleven más años en la hermandad
-     * teniendo en cuenta su fecha de inscripción en la hermandad.
-     * El mapa contiene los 5 hermanos más antiguos de la hermanda y el tiempo que llevan de hermanos de la hermandad.
      *
      * @param hermandad
      * @return
@@ -59,12 +52,6 @@ public class UtilidadesSemanaSanta {
 
     /**
      * Ejercico 4 (2.5  pts)
-     * A partir de una hermandad el método devuelve su junta de gobierno electa aleatoriamente de la siguiente manera:
-     * - hermandad -> se establece la hermandad pasada como parámetro
-     * - fechaInicioMandado -> la fechaActual
-     * - fechaFinMandado -> la fecha actual + 4 años
-     * - personalJunta -> se ha de rellanar asignando todos los cargos como claves del mapa y como valores
-     *                    los hermanos escogidos al azar siguiento el orden de antiguedad por cargo (de más mayor a menos)
      *
      * @param hermandad
      * @return
@@ -77,18 +64,6 @@ public class UtilidadesSemanaSanta {
 
     /**
      * Ejercicio 5 (3.5 pts)
-     * A partir de una hermandad devuelve el informe de la hermandad completo con los siguientes datos:
-     * - hermandad-> La hermandad pasada como parámetro
-     * - totalHermanos -> el número de hermanos que tiene la hermandad
-     * - totalTitulares -> el número total de titulares que tiene la hermandad
-     * - totalPasos -> el número total de pasos que tiene la hermandad
-     * - totalCostaleros -> el número total de costaleros = se calcula
-     *                      multiplicando de cada paso el número de costaleros * el número de cuadrillas
-     *                      y luego sumando el total de cada paso.
-     * - costalerosPorPaso -> contiene de clave los pasos de la hermandad y de valor el total de costaleros por cada paso
-     *                        calculado de el número de costaleros * el número de cuadrillas
-     * - pasoTotalFiguras -> contiene de clave los pasos de la hermandad y de valor el total se figuras del paso
-     *                       que se calcula sumando el número de titulares del paso + el número de figuras segundarias
      *
      * @param hermandad
      * @return
